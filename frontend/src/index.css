@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, "Segoe UI", sans-serif;
+  color: #0f172a;
+  background-color: #f8fafc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply min-h-screen text-slate-100 antialiased;
+  background: linear-gradient(135deg, #020817 0%, #0f172a 35%, #111827 100%);
+}
+
+#root {
+  @apply min-h-screen bg-transparent;
+}
+
+* {
+  box-sizing: border-box;
+}
